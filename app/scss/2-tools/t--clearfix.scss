@@ -1,0 +1,24 @@
+// ========================================================
+// @tools: clearfix
+// ========================================================
+//
+
+// mixin definition:
+// http://nicolasgallagher.com/micro-clearfix-hack/
+//
+
+
+.cleafix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+// For IE 6/7
+.clearfix {
+    *zoom: 1;
+}

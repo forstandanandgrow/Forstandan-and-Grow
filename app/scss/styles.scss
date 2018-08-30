@@ -1,0 +1,27 @@
+// ====================================================================
+// @title: CSS Framework
+// @author: Adam Parsons
+// @created: 09/2018
+// ====================================================================
+//
+
+// SETTINGS: global variables, config switches
+@import "1-settings/s--breakpoints";
+@import "1-settings/s--colors";
+
+// TOOLS: default mixins and functions
+@import "2-tools/t--clearfix";
+@import "2-tools/t--fonts";
+
+// GENERIC: ground-zero styles (Normalize.css, resets, box-sizing)
+@import "3-generic/g--normalize";
+
+// ELEMENTS: unclassed HTML elements (type selectors)
+@import "4-elements/e--typography";
+@import "4-elements/e--links";
+
+// OBJECTS: cosmetic-free design patterns
+
+// COMPONENTS: designed components, chunks of UI
+
+// UTILITIES: helpers and overrides
