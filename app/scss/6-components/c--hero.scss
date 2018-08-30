@@ -1,0 +1,22 @@
+// ========================================================
+// @components: hero
+// ========================================================
+//
+
+.hero {
+  background-color: $brand-green;
+  padding-top: 250px;
+  padding-bottom: 270px;
+}
+
+.hero-content {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+
+}
+
+.hero-content p {
+  color: $white;
+  margin-top: 28px;
+}

@@ -1,0 +1,27 @@
+// ========================================================
+// @components: what-we-do
+// ========================================================
+//
+
+.what-we-do {
+  background-color: $grey;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.what-we-do-content{
+  margin-left: 101px;
+  max-width: 798px;
+  float: left;
+}
+
+
+.what-we-do p {
+  font-size: 36px;
+  color: $brand-green;
+
+}
+
+.what-we-do-list {
+  transform: translateY(260px);
+}

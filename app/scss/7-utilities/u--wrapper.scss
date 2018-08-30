@@ -1,8 +1,9 @@
 // ========================================================
-// @settings: colors
+// @utilities: wrapper
 // ========================================================
 //
 
-$brand-green: grey;
-$white:       #FFFFFF;
-$grey:        #E5E5E5;
+.wrapper {
+  max-width: 998px;
+  margin: 0 auto;
+}

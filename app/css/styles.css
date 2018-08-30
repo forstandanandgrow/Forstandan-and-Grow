@@ -1,4 +1,4 @@
-.cleafix:before,
+.clearfix:before,
 .clearfix:after {
   content: " ";
   /* 1 */
@@ -153,3 +153,56 @@ template {
 
 [hidden] {
   display: none; }
+
+p {
+  font-size: 24px;
+  line-height: 1; }
+
+h2 {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: grey;
+  margin-bottom: 32px; }
+
+.hero {
+  background-color: grey;
+  padding-top: 250px;
+  padding-bottom: 270px; }
+
+.hero-content {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px; }
+
+.hero-content p {
+  color: #FFFFFF;
+  margin-top: 28px; }
+
+.our-clients-p-1 {
+  float: left;
+  max-width: 50%; }
+
+.our-clients-p-2 {
+  float: right;
+  max-width: 50%; }
+
+.what-we-do {
+  background-color: #E5E5E5;
+  padding-top: 160px;
+  padding-bottom: 160px; }
+
+.what-we-do-content {
+  margin-left: 101px;
+  max-width: 798px;
+  float: left; }
+
+.what-we-do p {
+  font-size: 36px;
+  color: grey; }
+
+.what-we-do-list {
+  transform: translateY(260px); }
+
+.wrapper {
+  max-width: 998px;
+  margin: 0 auto; }

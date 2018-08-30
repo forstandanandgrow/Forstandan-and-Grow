@@ -17,11 +17,16 @@
 @import "3-generic/g--normalize";
 
 // ELEMENTS: unclassed HTML elements (type selectors)
+@import "4-elements/e--body";
 @import "4-elements/e--typography";
 @import "4-elements/e--links";
 
 // OBJECTS: cosmetic-free design patterns
 
 // COMPONENTS: designed components, chunks of UI
+@import "6-components/c--hero";
+@import "6-components/c--our-clients";
+@import "6-components/c--what-we-do";
 
 // UTILITIES: helpers and overrides
+@import "7-utilities/u--wrapper";
