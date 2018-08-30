@@ -15,5 +15,8 @@
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
     "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
