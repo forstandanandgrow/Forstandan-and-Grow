@@ -381,20 +381,21 @@ li {
   line-height: 1.6; }
 
 @media (max-width: 1000px) {
+  .what-we-do {
+    background-color: #E5E5E5;
+    padding-bottom: 80px; }
   .what-we-do-content {
-    display: flex;
     flex-direction: column; }
   .what-we-do-p {
     max-width: 100%; }
   .what-we-do-list {
     padding-left: 0px;
-    transform: translateY(0px); }
+    margin-top: 100px;
+    align-self: flex-start; }
   ul {
     columns: 2;
     -webkit-columns: 2;
-    -moz-columns: 2; }
-  .rellax {
-    transform: translate3d(0px, 0px, 0px); } }
+    -moz-columns: 2; } }
 
 .wrapper {
   max-width: 1100px;

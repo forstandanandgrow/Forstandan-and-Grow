@@ -46,8 +46,12 @@ li {
 
 @media (max-width:$breakpoint-m) {
 
+  .what-we-do {
+    background-color: $grey;
+    padding-bottom: 80px;
+  }
+
   .what-we-do-content{
-    display: flex;
     flex-direction: column;
   }
 
@@ -57,7 +61,10 @@ li {
 
   .what-we-do-list {
     padding-left: 0px;
-    transform: translateY(0px);
+    margin-top: 100px;
+    align-self:flex-start;
+
+
   }
 
   ul {
@@ -65,7 +72,5 @@ li {
   -webkit-columns: 2;
   -moz-columns: 2;
 }
-.rellax {
-transform: translate3d(0px, 0px, 0px)
-}
+
 }
