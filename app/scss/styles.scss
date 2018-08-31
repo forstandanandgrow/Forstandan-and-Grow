@@ -11,7 +11,7 @@
 
 // TOOLS: default mixins and functions
 @import "2-tools/t--clearfix";
-@import "../fonts/fonts";
+@import "fonts";
 
 // GENERIC: ground-zero styles (Normalize.css, resets, box-sizing)
 @import "3-generic/g--normalize";
