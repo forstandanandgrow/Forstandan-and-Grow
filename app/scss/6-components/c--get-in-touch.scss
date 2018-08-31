@@ -1,0 +1,62 @@
+// ========================================================
+// @components: get in touch
+// ========================================================
+//
+
+.get-in-touch .name {
+  font-size: 30px;
+  color: $brand-green;
+}
+
+.details {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.details .email {
+  width: 50%;
+}
+
+.details .email a {
+  text-decoration: none;
+  font-size: 30px;
+  color: $black;
+}
+
+.details .email a:hover {
+  padding-bottom: 6px;
+  border-bottom: 4px $brand-green solid;
+}
+
+.details .phone {
+  font-size: 30px;
+  width:50%;
+  margin: 0;
+  color: $black;
+}
+
+.plus {
+  font-family: times;
+}
+
+.footer-text {
+  text-align: center;
+  color: $brand-green;
+  font-size: 16px;
+}
+
+.green-line {
+  height:16px;
+  background-color:$brand-green;
+  width: 100%;
+}
+
+@media (max-width: $breakpoint-m){
+  .details {
+    flex-direction: column;
+  }
+  .details .email {
+    margin-bottom: 12px;
+  }
+}

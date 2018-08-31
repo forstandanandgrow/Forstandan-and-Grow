@@ -3,14 +3,38 @@
 // ========================================================
 //
 
-p {
-  font-size: 24px;
-  line-height: 1;
+@font-face {
+    font-family: 'camptonlight_demo';
+    src: url('/fonts/campton-lightdemo-webfont.woff2') format('woff2'),
+         url('fonts/campton-lightdemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'camptonbold_demo';
+    src: url('/fonts/campton-bolddemo-webfont.woff2') format('woff2'),
+         url('fonts/campton-bolddemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'camptonlight_demo', arial , sans-serif;
+  line-height: 1.2;
 }
 
 h2 {
+  font-family: 'camptonbold_demo', arial , sans-serif;
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: $brand-green;
   margin-bottom: 32px;
+  padding-top: 160px;
+  margin-top: 0;
+}
+
+p {
+  font-family: 'camptonlight_demo', arial , sans-serif;
+  font-size: 24px;
 }

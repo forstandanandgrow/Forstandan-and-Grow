@@ -5,23 +5,64 @@
 
 .what-we-do {
   background-color: $grey;
-  padding-top: 160px;
   padding-bottom: 160px;
 }
 
 .what-we-do-content{
-  margin-left: 101px;
-  max-width: 798px;
-  float: left;
+  display: flex;
+  flex-direction: row;
 }
 
+.what-we-do-p {
+    max-width: 65%;
+}
 
 .what-we-do p {
   font-size: 36px;
   color: $brand-green;
-
 }
 
 .what-we-do-list {
+  padding-left: 120px;
   transform: translateY(260px);
+}
+
+.green-accent {
+  width: 40px;
+  height: 8px;
+  background-color: $brand-green;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width:$breakpoint-m) {
+
+  .what-we-do-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .what-we-do-p {
+      max-width: 85%;
+  }
+
+  .what-we-do-list {
+    padding-left: 0px;
+    transform: translateY(0px);
+  }
+
+  ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 }

@@ -3,12 +3,45 @@
 // ========================================================
 //
 
+.our-clients {
+  // padding-top: 160px;
+}
+
+.our-clients-p {
+  padding-bottom: 160px;
+  border-bottom: $brand-green 1px solid;
+  display: flex;
+  flex-direction: row;
+
+}
+
 .our-clients-p-1 {
-  float:left;
+  padding-right: 20px;
   max-width: 50%;
 }
 
 .our-clients-p-2 {
-  float:right;
+  padding-left: 20px;
   max-width: 50%;
+
+}
+blockquote {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+blockquote svg {
+  width: 28px;
+  height: 18px;
+  margin-bottom: 20px
+}
+
+blockquote .quote {
+  margin-bottom: 30px;
+}
+
+blockquote .source {
+  font-size: 16px;
+  text-transform: uppercase;
 }

@@ -154,18 +154,83 @@ template {
 [hidden] {
   display: none; }
 
-p {
-  font-size: 24px;
-  line-height: 1; }
+@font-face {
+  font-family: 'camptonlight_demo';
+  src: url("/fonts/campton-lightdemo-webfont.woff2") format("woff2"), url("fonts/campton-lightdemo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'camptonbold_demo';
+  src: url("/fonts/campton-bolddemo-webfont.woff2") format("woff2"), url("fonts/campton-bolddemo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'camptonlight_demo', arial , sans-serif;
+  line-height: 1.2; }
 
 h2 {
+  font-family: 'camptonbold_demo', arial , sans-serif;
   font-size: 16px;
-  text-transform: capitalize;
-  color: grey;
-  margin-bottom: 32px; }
+  text-transform: uppercase;
+  color: #475B51;
+  margin-bottom: 32px;
+  padding-top: 160px;
+  margin-top: 0; }
+
+p {
+  font-family: 'camptonlight_demo', arial , sans-serif;
+  font-size: 24px; }
+
+.get-in-touch .name {
+  font-size: 30px;
+  color: #475B51; }
+
+.details {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row; }
+
+.details .email {
+  width: 50%; }
+
+.details .email a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000; }
+
+.details .email a:hover {
+  padding-bottom: 6px;
+  border-bottom: 4px #475B51 solid; }
+
+.details .phone {
+  font-size: 30px;
+  width: 50%;
+  margin: 0;
+  color: #000000; }
+
+.plus {
+  font-family: times; }
+
+.footer-text {
+  text-align: center;
+  color: #475B51;
+  font-size: 16px; }
+
+.green-line {
+  height: 16px;
+  background-color: #475B51;
+  width: 100%; }
+
+@media (max-width: 1000px) {
+  .details {
+    flex-direction: column; }
+  .details .email {
+    margin-bottom: 12px; } }
 
 .hero {
-  background-color: grey;
+  background-color: #475B51;
   padding-top: 250px;
   padding-bottom: 270px; }
 
@@ -176,33 +241,108 @@ h2 {
 
 .hero-content p {
   color: #FFFFFF;
-  margin-top: 28px; }
+  font-family: 'camptonlight_demo', arial , sans-serif;
+  margin-top: 20px;
+  line-height: 1.4; }
+
+.our-approach {
+  background-color: #475B51;
+  padding-bottom: 160px; }
+
+.our-approach h2 {
+  color: #FFFFFF; }
+
+.our-approach p {
+  font-size: 36px;
+  color: #FFFFFF;
+  max-width: 75%; }
+
+@media (max-width: 1000px) {
+  .our-approach p {
+    max-width: 85%; } }
+
+.our-clients-p {
+  padding-bottom: 160px;
+  border-bottom: #475B51 1px solid;
+  display: flex;
+  flex-direction: row; }
 
 .our-clients-p-1 {
-  float: left;
+  padding-right: 20px;
   max-width: 50%; }
 
 .our-clients-p-2 {
-  float: right;
+  padding-left: 20px;
   max-width: 50%; }
+
+blockquote {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+blockquote svg {
+  width: 28px;
+  height: 18px;
+  margin-bottom: 20px; }
+
+blockquote .quote {
+  margin-bottom: 30px; }
+
+blockquote .source {
+  font-size: 16px;
+  text-transform: uppercase; }
 
 .what-we-do {
   background-color: #E5E5E5;
-  padding-top: 160px;
   padding-bottom: 160px; }
 
 .what-we-do-content {
-  margin-left: 101px;
-  max-width: 798px;
-  float: left; }
+  display: flex;
+  flex-direction: row; }
+
+.what-we-do-p {
+  max-width: 65%; }
 
 .what-we-do p {
   font-size: 36px;
-  color: grey; }
+  color: #475B51; }
 
 .what-we-do-list {
+  padding-left: 120px;
   transform: translateY(260px); }
 
+.green-accent {
+  width: 40px;
+  height: 8px;
+  background-color: #475B51;
+  margin-bottom: 20px; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 1.6; }
+
+@media (max-width: 1000px) {
+  .what-we-do-content {
+    display: flex;
+    flex-direction: column; }
+  .what-we-do-p {
+    max-width: 85%; }
+  .what-we-do-list {
+    padding-left: 0px;
+    transform: translateY(0px); }
+  ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2; } }
+
 .wrapper {
-  max-width: 998px;
+  max-width: 1100px;
   margin: 0 auto; }
+
+.wrapper {
+  padding-left: 60px;
+  padding-right: 60px; }
