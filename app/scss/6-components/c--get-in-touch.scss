@@ -64,3 +64,15 @@
 
   }
 }
+
+@media (max-width:$breakpoint-s) {
+  .get-in-touch .name,
+  .details .phone,
+  .plus,
+  .details .email a {
+  font-size: 24px;
+}
+.get-in-touch .name {
+margin-bottom: 12px;
+}
+}

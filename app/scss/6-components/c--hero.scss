@@ -63,3 +63,11 @@
     padding-right: 40px;
   }
 }
+
+@media (max-width:$breakpoint-s) {
+  .hero {
+    background-color: $brand-green;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

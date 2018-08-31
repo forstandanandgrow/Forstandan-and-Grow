@@ -23,3 +23,9 @@
     max-width: 100%;
   }
 }
+
+@media (max-width:$breakpoint-s) {
+.our-approach p {
+  font-size: 24px;
+}
+}

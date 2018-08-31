@@ -74,3 +74,8 @@ li {
 }
 
 }
+@media (max-width:$breakpoint-s) {
+.what-we-do p {
+  font-size: 24px;
+}
+}
