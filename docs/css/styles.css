@@ -156,13 +156,15 @@ template {
 
 @font-face {
   font-family: 'camptonlight_demo';
-  src: url("/fonts/campton-lightdemo-webfont.woff2") format("woff2"), url("/fonts/campton-lightdemo-webfont.woff") format("woff");
+  src: url("/fonts/campton-lightdemo-webfont.woff2") format("woff2");
+  src: url("/fonts/campton-lightdemo-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'camptonbold_demo';
-  src: url("/fonts/campton-bolddemo-webfont.woff2") format("woff2"), url("/fonts/campton-bolddemo-webfont.woff") format("woff");
+  src: url("/fonts/campton-bolddemo-webfont.woff2") format("woff2");
+  src: url("/fonts/campton-bolddemo-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
