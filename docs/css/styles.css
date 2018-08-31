@@ -228,6 +228,15 @@ p {
   .details .phone {
     width: 100%; } }
 
+@media (max-width: 850px) {
+  .get-in-touch .name,
+  .details .phone,
+  .plus,
+  .details .email a {
+    font-size: 24px; }
+  .get-in-touch .name {
+    margin-bottom: 12px; } }
+
 .hero {
   background-color: #475B51;
   padding-top: 250px;
@@ -292,6 +301,12 @@ p {
     padding-left: 40px;
     padding-right: 40px; } }
 
+@media (max-width: 850px) {
+  .hero {
+    background-color: #475B51;
+    padding-top: 120px;
+    padding-bottom: 120px; } }
+
 .our-approach {
   background-color: #475B51;
   padding-bottom: 160px; }
@@ -307,6 +322,10 @@ p {
 @media (max-width: 1000px) {
   .our-approach p {
     max-width: 100%; } }
+
+@media (max-width: 850px) {
+  .our-approach p {
+    font-size: 24px; } }
 
 .our-clients-p {
   padding-bottom: 160px;
@@ -381,25 +400,36 @@ li {
   line-height: 1.6; }
 
 @media (max-width: 1000px) {
+  .what-we-do {
+    background-color: #E5E5E5;
+    padding-bottom: 80px; }
   .what-we-do-content {
-    display: flex;
     flex-direction: column; }
   .what-we-do-p {
     max-width: 100%; }
   .what-we-do-list {
     padding-left: 0px;
-    transform: translateY(0px); }
+    margin-top: 100px;
+    align-self: flex-start; }
   ul {
     columns: 2;
     -webkit-columns: 2;
-    -moz-columns: 2; }
-  .rellax {
-    transform: translate3d(0px, 0px, 0px); } }
+    -moz-columns: 2; } }
+
+@media (max-width: 850px) {
+  .what-we-do p {
+    font-size: 24px; } }
 
 .wrapper {
   max-width: 1100px;
   margin: 0 auto; }
 
-.wrapper {
-  padding-left: 60px;
-  padding-right: 60px; }
+@media (max-width: 850px) {
+  .wrapper {
+    padding-left: 5px;
+    padding-right: 5px; } }
+
+@media (max-width: 1000px) {
+  .wrapper {
+    padding-left: 60px;
+    padding-right: 60px; } }
