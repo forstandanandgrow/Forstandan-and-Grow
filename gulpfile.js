@@ -36,7 +36,7 @@ gulp.task('copy-html', function() {
 
 //Copy font files from app to docs folder
 gulp.task('copy-fonts', function() {
-  return gulp.src('app/fonts/**/*')
+  return gulp.src('app/fonts/**/*+(woff|woff2|otf|ttf)')
   .pipe(gulp.dest('docs/fonts'))
 })
 
