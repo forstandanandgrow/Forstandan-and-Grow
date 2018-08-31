@@ -27,8 +27,8 @@
 }
 blockquote {
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  max-width: 700px;
+  margin: 70px auto;
 }
 
 blockquote svg {
@@ -44,4 +44,18 @@ blockquote .quote {
 blockquote .source {
   font-size: 16px;
   text-transform: uppercase;
+}
+
+@media (max-width:$breakpoint-m) {
+
+  .our-clients-p {
+    flex-direction: column;
+
+  }
+  .our-clients-p-1,
+  .our-clients-p-2  {
+    padding: 0px;
+    max-width: 85%;
+  }
+
 }

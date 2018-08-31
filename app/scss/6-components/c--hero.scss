@@ -22,3 +22,10 @@
   margin-top: 20px;
   line-height: 1.4;
 }
+
+@media (max-width:$breakpoint-m) {
+  .hero-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
