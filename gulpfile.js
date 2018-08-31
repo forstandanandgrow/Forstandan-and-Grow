@@ -47,6 +47,12 @@ gulp.task('copy-images', function(){
   .pipe(gulp.dest('docs/images'))
 });
 
+gulp.task('copy-js', function(){
+  return gulp.src('app/js/**/*')
+  .pipe(imagemin())
+  .pipe(gulp.dest('docs/js'))
+});
+
 //Task to watch for changes to sass, html and js in the app folder
 gulp.task('watch', ['browserSync', 'sass'], function() {
 gulp.watch('app/scss/**/*.scss', ['sass']);
@@ -70,9 +76,9 @@ gulp.task('default', function(callback) {
   )
 });
 
-//Copies Fonts, images, CSS and HTML files into the docs folder
+//Copies Fonts, images, JS, CSS and HTML files into the docs folder
 gulp.task('build', function(callback) {
-  runSequence('sass', ['copy-styles-css'], ['copy-html'], ['copy-fonts'], ['copy-images'],
+  runSequence('sass', ['copy-styles-css'], ['copy-js'],['copy-html'], ['copy-fonts'], ['copy-images'],
     callback
   )
 });
