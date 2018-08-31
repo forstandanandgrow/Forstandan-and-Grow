@@ -224,7 +224,9 @@ p {
   .details {
     flex-direction: column; }
   .details .email {
-    margin-bottom: 12px; } }
+    margin-bottom: 12px; }
+  .details .phone {
+    width: 100%; } }
 
 .hero {
   background-color: #475B51;
@@ -239,11 +241,11 @@ p {
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s;
   /* Firefox < 16 */
-  -ms-animation: fadein 3.5s;
+  -ms-animation: fadein 2s;
   /* Internet Explorer */
-  -o-animation: fadein 3.5s;
+  -o-animation: fadein 2s;
   /* Opera < 12.1 */
-  animation: fadein 3.5s; }
+  animation: fadein 2s; }
 
 @keyframes fadein {
   from {
@@ -304,7 +306,7 @@ p {
 
 @media (max-width: 1000px) {
   .our-approach p {
-    max-width: 85%; } }
+    max-width: 100%; } }
 
 .our-clients-p {
   padding-bottom: 160px;
@@ -343,7 +345,7 @@ blockquote .source {
   .our-clients-p-1,
   .our-clients-p-2 {
     padding: 0px;
-    max-width: 85%; } }
+    max-width: 100%; } }
 
 .what-we-do {
   background-color: #E5E5E5;
@@ -362,7 +364,7 @@ blockquote .source {
 
 .what-we-do-list {
   padding-left: 120px;
-  transform: translateY(260px); }
+  align-self: flex-end; }
 
 .green-accent {
   width: 40px;
@@ -383,14 +385,16 @@ li {
     display: flex;
     flex-direction: column; }
   .what-we-do-p {
-    max-width: 85%; }
+    max-width: 100%; }
   .what-we-do-list {
     padding-left: 0px;
     transform: translateY(0px); }
   ul {
     columns: 2;
     -webkit-columns: 2;
-    -moz-columns: 2; } }
+    -moz-columns: 2; }
+  .rellax {
+    transform: translate3d(0px, 0px, 0px); } }
 
 .wrapper {
   max-width: 1100px;

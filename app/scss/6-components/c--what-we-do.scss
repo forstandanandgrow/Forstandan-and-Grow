@@ -24,7 +24,7 @@
 
 .what-we-do-list {
   padding-left: 120px;
-  transform: translateY(260px);
+  align-self: flex-end;
 }
 
 .green-accent {
@@ -52,7 +52,7 @@ li {
   }
 
   .what-we-do-p {
-      max-width: 85%;
+      max-width: 100%;
   }
 
   .what-we-do-list {
@@ -64,5 +64,8 @@ li {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+}
+.rellax {
+transform: translate3d(0px, 0px, 0px)
 }
 }
