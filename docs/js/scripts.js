@@ -1,5 +1,3 @@
-var rellax = new Rellax(".rellax");
-
 const elementsTag = document.querySelectorAll(
   ".hero-content, .what-we-do-content, .our-clients-content, .how-we-work, .get-in-touch-content"
 );
