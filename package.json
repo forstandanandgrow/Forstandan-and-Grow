@@ -9,14 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.7",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.11"
   }
 }

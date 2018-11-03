@@ -8,6 +8,9 @@
 // SETTINGS: global variables, config switches
 @import "1-settings/s--breakpoints";
 @import "1-settings/s--colors";
+@import "1-settings/s--font-sizes";
+@import "1-settings/s--spacing";
+@import "1-settings/s--widths";
 
 // TOOLS: default mixins and functions
 @import "2-tools/t--clearfix";
@@ -26,7 +29,7 @@
 // COMPONENTS: designed components, chunks of UI
 @import "6-components/c--get-in-touch";
 @import "6-components/c--hero";
-@import "6-components/c--our-approach";
+@import "6-components/c--how-we-work";
 @import "6-components/c--our-clients";
 @import "6-components/c--what-we-do";
 

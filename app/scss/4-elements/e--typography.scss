@@ -2,23 +2,26 @@
 // @elements: typography
 // ========================================================
 //
+
 body {
-  font-family: 'camptonlight_demo', arial , sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "camptonlight_demo", arial, sans-serif;
   line-height: 1.2;
 }
 
 h2 {
-  font-family: 'camptonbold_demo', arial , sans-serif;
-  font-size: 16px;
+  font-family: "camptonbold_demo", arial, sans-serif;
+  font-size: $font-size4;
   text-transform: uppercase;
   color: $brand-green;
-  margin-bottom: 32px;
-  padding-top: 160px;
+  margin-bottom: $margin4;
+  padding-top: $padding6;
   margin-top: 0;
   letter-spacing: 2px;
 }
 
 p {
-  font-family: 'camptonlight_demo', arial , sans-serif;
-  font-size: 24px;
+  font-family: "camptonlight_demo", arial, sans-serif;
+  font-size: $font-size3;
 }

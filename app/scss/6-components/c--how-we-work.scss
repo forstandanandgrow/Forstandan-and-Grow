@@ -1,0 +1,40 @@
+// ========================================================
+// @components: our approach
+// ========================================================
+//
+
+.how-we-work {
+  background-color: $brand-green;
+  padding-bottom: $padding6;
+  color: $white;
+
+  h2 {
+    color: $white;
+  }
+
+  p {
+    font-size: 36px;
+    max-width: 75%;
+  }
+
+  ol {
+    margin-left: $margin3;
+  }
+
+  li {
+    font-size: $font-size3;
+    margin-bottom: $margin3;
+  }
+}
+
+@media (max-width: $breakpoint-m) {
+  .how-we-work p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: $breakpoint-s) {
+  .how-we-work p {
+    font-size: 24px;
+  }
+}

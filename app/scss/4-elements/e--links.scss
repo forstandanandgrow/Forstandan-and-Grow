@@ -2,3 +2,19 @@
 // @elements: links
 // ========================================================
 //
+
+a {
+  text-decoration: none;
+  color: $black;
+  padding-bottom: 6px;
+  border-bottom: 4px $white solid;
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
+
+a:hover {
+  border-bottom: 4px $brand-green solid;
+}
