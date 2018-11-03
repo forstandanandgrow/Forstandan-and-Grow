@@ -35,3 +35,7 @@
 
 // UTILITIES: helpers and overrides
 @import "7-utilities/u--wrapper";
+
+body {
+  background-color: $brand-green;
+}

@@ -37,25 +37,3 @@ document.addEventListener("scroll", function() {
 window.addEventListener("resize", function() {
   fadeIn();
 });
-
-// var resize = function() {
-//   var screenWidth = parseInt(("body").width()),
-//     mySlider = $(".what-we-do-list");
-
-//   if (screenWidth < 1000) {
-//     mySlider.data("rellax-speed", "0");
-//   } else {
-//     mySlider.data("rellax-speed", "2");
-//   }
-// };
-
-// window.resize(function() {
-//   resize();
-// });
-
-// document.ready(function() {
-//   resize();
-// });
-
-const rellaxList = document.querySelector(".rellax");
-rellaxList.dataset.rellaxSpeed = "1";

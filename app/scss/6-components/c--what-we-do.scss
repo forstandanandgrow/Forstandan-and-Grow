@@ -35,6 +35,7 @@
 
 .what-we-do-list {
   padding-left: $padding6;
+  padding-bottom: $padding4;
   align-self: flex-end;
 }
 
@@ -75,11 +76,5 @@
 @media (max-width: $breakpoint-s) {
   .what-we-do p {
     font-size: 24px;
-  }
-}
-
-@media (max-width: $breakpoint-m) {
-  .rellax {
-    transform: translate3d(0, 0, 0) !important;
   }
 }
