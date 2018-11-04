@@ -1,6 +1,5 @@
 # Forstandan & Grow website
 
-A simple boilerplate using Gulp tasks to get up and running quickly in Github pages.
 
 This project uses SASS with an [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) structure.
 
