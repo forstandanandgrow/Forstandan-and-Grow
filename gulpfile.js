@@ -14,7 +14,7 @@ imagemin = require("gulp-imagemin");
 gulp.task("sass", function() {
   return gulp
     .src("app/scss/styles.scss")
-    .pipe(sass())
+    .pipe(sass({ outputStyle: "compressed" }))
     .pipe(gulp.dest("app/css"))
     .pipe(
       browserSync.reload({
