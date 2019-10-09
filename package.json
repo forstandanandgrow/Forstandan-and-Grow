@@ -4,19 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel ./docs/index.html",
+    "compile-scss": "sass --watch --no-source-map ./docs/scss/styles.scss ./docs/css/styles.css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^4.0.2",
-    "run-sequence": "^2.2.1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.11"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.0"
   }
 }
