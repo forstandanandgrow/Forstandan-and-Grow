@@ -3,3 +3,4 @@ package-lock.json
 .sass-cache
 node_modules
 dist
+.cache
